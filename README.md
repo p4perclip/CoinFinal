@@ -1,4 +1,4 @@
 # CoinFinal
-Final version of CoinFlip
+Final version of CoinFlip Dapp
 Tests
-https://imgur.com/S7mzkkG
+<img>https://imgur.com/S7mzkkG</img>
