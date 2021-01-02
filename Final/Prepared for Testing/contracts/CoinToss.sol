@@ -166,8 +166,6 @@ contract CoinToss is Ownable, usingProvable, Destroyable {
     uint u = playInfo[msg.sender].uBalance;
     playInfo[msg.sender].uBalance = 0;
     msg.sender.transfer(u);
-
-    assert(balance >= playInfo[msg.sender].uBalance);
     emit Withdrawn(msg.sender, u);
   }
   //@Fund contact as a Owner
